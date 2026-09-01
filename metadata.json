@@ -1,0 +1,6 @@
+{
+  "name": "My First Holy Communion — Catholic Preparation",
+  "description": "A Catholic First Holy Communion catechism and sacramental preparation app for children, parents, and catechists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

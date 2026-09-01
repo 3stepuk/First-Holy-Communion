@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #0F0F0F;
+    --card: #161616;
+    --card-deep: #0A0A0A;
+    --accent: #7A1E3E;
+    --accent-dark: #4A1226;
+    --text-main: #FFFFFF;
+    --text-dim: #94A3B8;
+    --font-cinzel: 'Cinzel', 'Times New Roman', Georgia, serif;
+    --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', 'Times New Roman', Georgia, serif;
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+}
+
+/* Immersive Accent Glows */
+.accent-glow-br {
+  position: fixed;
+  bottom: -120px;
+  right: -120px;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(122, 30, 62, 0.18) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.accent-glow-tl {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(74, 18, 38, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Custom scrollbar for immersive dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A1E3E;
+}
+
+/* Print styling for certificates and summary guide */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .dark-card-print {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #e5e7eb !important;
+  }
+  .accent-glow-br, .accent-glow-tl {
+    display: none !important;
+  }
+}
+
