@@ -447,18 +447,18 @@ export const LessonView: React.FC<LessonViewProps> = ({
           id={`lesson-note-${lesson.id}`}
           rows={3}
           value={personalNote}
-          onChange={(e) => setPersonalNote(e.target.value)}
+          onChange={(e) => {
+            setPersonalNote(e.target.value);
+            onSaveNote(lesson.id, e.target.value);
+          }}
           onBlur={handleNoteBlur}
           placeholder="Write a question for Father John/Catechist, or note what you learned today..."
           className="w-full bg-[#0A0A0A] border border-[#333] focus:border-[#7A1E3E] rounded-lg p-3 text-xs sm:text-sm text-slate-200 outline-none resize-none"
         />
         <div className="flex justify-end">
-          <button
-            onClick={handleNoteBlur}
-            className="text-xs px-3 py-1.5 rounded-lg bg-[#0A0A0A] hover:bg-[#222] border border-[#333] text-slate-300 transition-colors cursor-pointer"
-          >
-            Save Note
-          </button>
+          <span className="text-[10px] text-[#7A1E3E]/80 font-medium">
+            ✓ Auto-saved to this device as you type
+          </span>
         </div>
       </div>
 
