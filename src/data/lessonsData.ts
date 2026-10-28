@@ -4,588 +4,750 @@ export const LESSONS_DATA: Lesson[] = [
   {
     id: 1,
     number: 1,
-    title: 'God Feeds His Children',
-    remember: 'God gives us natural food for the body and the Holy Eucharist as supernatural food for the soul.',
+    title: "God Feeds His Children",
+    remember: "In Holy Communion, Jesus nourishes the life of grace in us.",
     explanation: [
-      'God created us with a body and a soul. Food keeps the body alive, while grace gives the soul a share in God\'s own life. Because he loves us, God provides for both.',
-      'Baptism gives us new life in Christ, Confirmation strengthens that life, and the Holy Eucharist nourishes it. The Eucharist completes Christian initiation and is the source and summit of Christian life.',
-      'At Mass, Jesus gathers his Church, teaches us through his word, offers his one sacrifice to the Father and feeds us with himself. We prepare because this gift is holy beyond measure.'
+      "God made you and loves you.",
+      "You have a body and a soul. Your body and soul belong together: together they make you the person you are.",
+      "Your body needs food, water and rest.",
+      "God also gives you something that ordinary food cannot give. He gives you a share in his own life. This wonderful gift is called grace.",
+      "At Baptism, God washed away sin and gave you new life as his child. You became a member of the Church, the family of God.",
+      "God made us to know, love and serve him, and to share his happiness in heaven. Baptism begins the life of grace; Confirmation strengthens it; Holy Communion nourishes it. Together these are called the sacraments of Christian initiation.",
+      "The Church calls the Eucharist the source and summit of Christian life. It is our greatest act of worship: Jesus is present, offered and received here, and he feeds our life with God.",
+      "God wants this life of grace to grow.",
+      "He helps us through prayer, through his teaching and through the sacraments.",
+      "A sacrament is a special sign given by Jesus through which he truly gives us his grace. In Baptism, for example, we see water being poured, while God gives the new life we cannot see.",
+      "In the sacrament of the Holy Eucharist, Jesus gives us himself.",
+      "When we receive him in Holy Communion, he brings us closer to himself and helps us grow in love.",
+      "That is why we call the Eucharist food for our souls.",
+      "Our souls do not chew and swallow food as our bodies do. We mean that Jesus strengthens the life of grace in us.",
+      "We prepare carefully because the gift we will receive is Jesus himself.",
     ],
     talkAboutIt: {
-      question: 'We need food to keep our bodies alive. What do you think our souls need in order to grow in friendship with God?',
-      guideNote: 'God gives natural food for bodily life and grace for supernatural life; in the Eucharist Christ himself nourishes the life begun in Baptism.'
+      question: "What happens when we have not eaten for a long time?",
+      guideNote: "we become hungry and may feel weak or tired. Food helps our bodies live and grow."
     },
     questions: [
       {
         id: 1,
         lessonId: 1,
-        question: 'Why did God make us?',
-        answer: 'God made us to know him, love him and serve him in this life, and to be happy with him for ever in heaven.'
+        question: "What is grace?",
+        answer: "Grace is God’s gift that helps us live with him. Sanctifying grace gives us a share in his own life."
       },
       {
         id: 2,
         lessonId: 1,
-        question: 'What gives supernatural life to the soul?',
-        answer: 'Sanctifying grace gives the soul a share in God\'s own life.'
+        question: "When did we first receive this new life?",
+        answer: "At Baptism."
       },
       {
         id: 3,
         lessonId: 1,
-        question: 'Which sacrament nourishes the life of grace?',
-        answer: 'The Holy Eucharist nourishes the life of grace.'
+        question: "Who comes to us in Holy Communion?",
+        answer: "Jesus himself."
       },
       {
         id: 4,
         lessonId: 1,
-        question: 'Why is the Eucharist the source and summit of Christian life?',
-        answer: 'Because Christ himself is present, offered and received in it, and every grace leads us to union with him.'
+        question: "Does receiving Holy Communion mean that we will never have to try to do good again?",
+        answer: "No. Jesus helps us, and we must welcome his help and choose to follow him."
       },
       {
         id: 5,
         lessonId: 1,
-        question: 'Why do we prepare carefully for First Holy Communion?',
-        answer: 'Because we are preparing to receive Jesus Christ himself with faith, love and reverence.'
-      }
+        question: "Who nourishes our life of grace in Holy Communion?",
+        answer: "Jesus nourishes our life of grace by giving us himself."
+      },
     ],
-    prayer: 'Father in heaven, thank you for giving me life and calling me to your table. Prepare my heart to receive your Son with faith and love. Amen.',
-    thisWeek: 'At Sunday Mass, notice the altar, the ambo and the tabernacle. Ask what each one is for.'
+    prayer: "Dear Jesus, thank you for loving me. Help me to grow in your grace and prepare to receive you. Amen.",
+    thisWeek: "Before bed, say: “Jesus, help me to live as God’s child.”"
   },
   {
     id: 2,
     number: 2,
-    title: 'The Passover, the Manna and the Bread of Life',
-    remember: 'God prepared his people for the Eucharist through the Passover, the manna and the promises of Jesus.',
+    title: "The Passover, the Manna and the Bread of Life",
+    remember: "God prepared his people for the gift of Jesus.",
     explanation: [
-      'At the first Passover, God delivered Israel from slavery. A lamb was sacrificed, and the people ate the Passover meal before beginning their journey to freedom.',
-      'In the desert, God fed his people with manna from heaven. These gifts pointed forward to Jesus, the true Paschal Lamb and the true Bread from heaven.',
-      'Jesus said, "I am the bread of life" (John 6:35). He promised to give himself for the life of the world. At the Last Supper and on the Cross, he fulfilled what the earlier signs had foretold.'
+      "Long before Jesus was born, God’s people were slaves in Egypt.",
+      "They were treated cruelly. They could not simply leave.",
+      "God heard their cries and sent Moses to lead them to freedom.",
+      "Before they left, God told the families to prepare a special meal. A lamb was sacrificed, and its blood marked their doorways. God protected his people and brought them out of slavery.",
+      "This rescue is remembered at Passover.",
+      "Later, as the people travelled through the desert, they became hungry.",
+      "God gave them food called manna. They gathered it and ate it. God was teaching them to trust his care.",
+      "These events helped prepare people to understand Jesus.",
+      "The Passover lamb points towards Jesus, who gives his life to save us from sin. That is why we call Jesus the Lamb of God.",
+      "The manna points towards the greater food Jesus would give.",
+      "Jesus called himself the Bread of Life.",
+      "He came to give us more than food for our bodies. He came to give us life with God.",
+      "In the Eucharist, Jesus gives us himself as food for our journey towards heaven.",
     ],
     talkAboutIt: {
-      question: 'God fed his people with manna while they travelled through the desert. How is our life like a journey, and what food does Jesus give us for it?',
-      guideNote: 'God\'s earlier gifts prepared his people for something greater. Jesus is the true Bread from heaven and accompanies us on our journey towards heaven.'
+      question: "If we were going on a long journey, what would we need?",
+      guideNote: ""
     },
     questions: [
       {
         id: 6,
         lessonId: 2,
-        question: 'What did God do at the Passover?',
-        answer: 'God delivered his people from slavery and led them towards freedom.'
+        question: "What did God rescue his people from in Egypt?",
+        answer: "Slavery."
       },
       {
         id: 7,
         lessonId: 2,
-        question: 'What was the manna?',
-        answer: 'Manna was the food God gave Israel in the desert.'
+        question: "What was manna?",
+        answer: "Food God gave his people in the desert."
       },
       {
         id: 8,
         lessonId: 2,
-        question: 'What did the Passover lamb point towards?',
-        answer: 'It pointed towards Jesus, the Lamb of God who saves us by his sacrifice.'
+        question: "Why do we call Jesus the Lamb of God?",
+        answer: "Because he gives his life to save us from sin."
       },
       {
         id: 9,
         lessonId: 2,
-        question: 'Who is the true Bread from heaven?',
-        answer: 'Jesus Christ is the true Bread from heaven.'
+        question: "Who is the Bread of Life?",
+        answer: "Jesus."
       },
       {
         id: 10,
         lessonId: 2,
-        question: 'Where does Jesus teach about the Bread of Life?',
-        answer: 'Jesus teaches about the Bread of Life in the sixth chapter of Saint John\'s Gospel.'
-      }
+        question: "Who is the Bread of Life?",
+        answer: "Jesus is the Bread of Life, who gives himself to us."
+      },
     ],
-    prayer: 'Lord Jesus, Bread of Life and Lamb of God, lead me out of sin and nourish me on the journey to heaven. Amen.',
-    thisWeek: 'Read or listen to Exodus 12:1-14, Exodus 16:4-15 or John 6:32-40.'
+    prayer: "Jesus, Bread of Life, thank you for caring for your people. Help me to trust you and follow you towards heaven. Amen.",
+    thisWeek: "At Mass, listen for the words “Lamb of God.” Remember that we are praying to Jesus. Bible background for the adult: Exodus 12; Exodus 16; John 6. The teaching needed for this conversation is supplied above."
   },
   {
     id: 3,
     number: 3,
-    title: 'Jesus Institutes the Holy Eucharist',
-    remember: 'At the Last Supper, Jesus instituted the Eucharist and commanded the Apostles to celebrate it in his memory.',
+    title: "Jesus Institutes the Holy Eucharist",
+    remember: "Jesus gave us the Eucharist at the Last Supper.",
     explanation: [
-      'On the night before he died, Jesus celebrated the Passover with his Apostles. He took bread, gave thanks, broke it and gave it to them, saying, "This is my body." He took the chalice and declared it to be his Blood of the new covenant.',
-      'Jesus then commanded, "Do this in remembrance of me." He gave the Apostles and their successors the sacred ministry of celebrating the Eucharist.',
-      'The Last Supper, the Sacrifice of the Cross and every Mass belong to one mystery of Christ\'s saving love. The Eucharist is both the memorial of his sacrifice and the sacred banquet in which he gives himself to us.'
+      "Jesus is the Son of God.",
+      "He became truly human and lived among us. He taught people, healed the sick, forgave sins and showed us the Father’s love.",
+      "He chose the Apostles to be especially close to him and to continue his work.",
+      "On the night before he died, Jesus gathered with them for a meal. We call this the Last Supper.",
+      "During the meal, Jesus took bread and gave thanks.",
+      "He gave it to his Apostles, saying that it was his Body.",
+      "Then he took a cup of wine and gave it to them, saying that it was his Blood of the new covenant. A covenant is a lasting bond with God.",
+      "Jesus told them to do this in memory of him. At Mass his saving gift is made present; we do not merely think back to a meal long ago.",
+      "He was giving his Church the Holy Eucharist.",
+      "The next day, Jesus freely gave his life on the Cross to save us from sin. On the third day, he rose from the dead.",
+      "Jesus is alive for ever.",
+      "At Mass, the Church does what Jesus commanded at the Last Supper.",
+      "Jesus works through the priest. Through Christ’s words and the power of the Holy Spirit, the bread and wine become his Body and Blood.",
+      "Only an ordained bishop or priest can consecrate the Eucharist. This ministry is received through the sacrament of Holy Orders.",
+      "We cannot make the Eucharist ourselves by repeating words over food. It is Jesus who acts through the ministry he has given to his Church.",
     ],
     talkAboutIt: {
-      question: 'At the Last Supper, Jesus didn\'t say, "This is a picture of my body." What did he say, and why does that matter?',
-      guideNote: 'Jesus declared the bread to be his Body and the wine his Blood, and commanded the Apostles to continue celebrating the Eucharist.'
+      question: "What is a special meal you remember sharing with other people?",
+      guideNote: ""
     },
     questions: [
       {
         id: 11,
         lessonId: 3,
-        question: 'When did Jesus institute the Holy Eucharist?',
-        answer: 'Jesus instituted the Holy Eucharist at the Last Supper, on the night before he died.'
+        question: "When did Jesus give us the Eucharist?",
+        answer: "At the Last Supper, on the night before he died."
       },
       {
         id: 12,
         lessonId: 3,
-        question: 'What did Jesus take at the Last Supper?',
-        answer: 'Jesus took bread and a chalice of wine.'
+        question: "What did Jesus give his Apostles under the appearances of bread and wine?",
+        answer: "His Body and Blood."
       },
       {
         id: 13,
         lessonId: 3,
-        question: 'What did Jesus declare about the bread and wine?',
-        answer: 'He declared the bread to be his Body and the wine to be his Blood.'
+        question: "What happened after Jesus died?",
+        answer: "He rose from the dead."
       },
       {
         id: 14,
         lessonId: 3,
-        question: 'What command did Jesus give the Apostles?',
-        answer: 'Jesus commanded them to celebrate the Eucharist in remembrance of him.'
+        question: "Who acts through the priest at Mass?",
+        answer: "Jesus."
       },
-      {
-        id: 15,
-        lessonId: 3,
-        question: 'Who can consecrate the Eucharist?',
-        answer: 'A validly ordained bishop or priest can consecrate the Eucharist.'
-      }
     ],
-    prayer: 'Lord Jesus, thank you for loving us to the end and giving the Church the Holy Eucharist. Help me to treasure your gift. Amen.',
-    thisWeek: 'Find the account of the Last Supper in Matthew 26:26-29, Mark 14:22-25, Luke 22:14-20 or 1 Corinthians 11:23-26.'
+    prayer: "Lord Jesus, thank you for the Last Supper, for your love on the Cross and for rising from the dead. Thank you for giving us the Eucharist. Amen.",
+    thisWeek: "At the next Mass, listen carefully when the priest recalls what Jesus did at the Last Supper. Bible background: Luke 22:14–20; 1 Corinthians 11:23–26."
   },
   {
     id: 4,
     number: 4,
-    title: 'Jesus Is Truly Present',
-    remember: 'In the Blessed Sacrament, Jesus Christ is truly, really and substantially present: Body, Blood, Soul and Divinity.',
+    title: "Jesus Is Truly Present",
+    remember: "The Holy Eucharist is truly Jesus.",
     explanation: [
-      'After the consecration, what appears to be bread and wine is no longer ordinary bread and wine. The living and glorious Jesus is present whole and entire.',
-      'We do not believe this because our eyes can see the change. We believe because Jesus, who is Truth itself, has spoken, and because his Church has faithfully handed on his teaching from the Apostles.',
-      'The Eucharist is a sacred sign, but it is not merely a symbol. It contains the reality it signifies: Jesus Christ himself, who gives his Body and Blood for our salvation.'
+      "A photograph can remind us of someone we love.",
+      "The Eucharist is much more than a reminder of Jesus.",
+      "Jesus himself is truly present.",
+      "Before the consecration at Mass, there is bread and wine.",
+      "After the consecration, what looks like bread is the Body of Christ, and what looks like wine is the Blood of Christ.",
+      "Consecration is the name we use for this holy change within the Eucharistic Prayer.",
+      "Our eyes still see the appearances of bread and wine.",
+      "But Jesus has told us what he gives, and we trust him. He is the Son of God and always speaks the truth.",
+      "We call this the Real Presence. The Church says that Jesus is truly, really and substantially present: he himself is here, not just a thought or reminder.",
+      "Jesus is present with his Body, Blood, Soul and Divinity.",
+      "This means the whole Jesus is present.",
+      "His divinity means that he is God. Jesus is truly God and truly human.",
+      "When you receive the Sacred Host, you receive the whole Jesus. You do not receive only one part of him.",
+      "You receive the same living Jesus who was born of Mary, died for us and rose again.",
+      "You may feel happy and peaceful when you receive him. You may feel very ordinary.",
+      "Jesus’ presence does not depend on how you feel.",
+      "He is faithful to his promise.",
     ],
     talkAboutIt: {
-      question: 'After the consecration, the Host still looks and tastes as it did before. So why do we believe it really is Jesus?',
-      guideNote: 'Christian faith is not restricted to what our senses can discover. We believe the Real Presence because Christ, who is Truth, has spoken and the Church faithfully hands on his teaching.'
+      question: "Is a photograph of someone the same as having that person with us?",
+      guideNote: "a photograph shows us what someone looks like, but the photograph is not the person."
     },
     questions: [
       {
+        id: 15,
+        lessonId: 4,
+        question: "Is the Eucharist only a reminder of Jesus?",
+        answer: "No. Jesus himself is truly present."
+      },
+      {
         id: 16,
         lessonId: 4,
-        question: 'Who is present in the Holy Eucharist?',
-        answer: 'Jesus Christ is present in the Holy Eucharist.'
+        question: "What do we mean by the Real Presence?",
+        answer: "Jesus is really present in the Holy Eucharist."
       },
       {
         id: 17,
         lessonId: 4,
-        question: 'How is Jesus present?',
-        answer: 'Jesus is truly, really and substantially present.'
+        question: "Do we receive only a part of Jesus in the Sacred Host?",
+        answer: "No. We receive the whole Jesus."
       },
       {
         id: 18,
         lessonId: 4,
-        question: 'What is present in the Blessed Sacrament?',
-        answer: 'The Body, Blood, Soul and Divinity of Jesus Christ are present.'
+        question: "If we do not feel anything unusual, is Jesus still present?",
+        answer: "Yes."
       },
       {
         id: 19,
         lessonId: 4,
-        question: 'Is the Eucharist merely a symbol of Jesus?',
-        answer: 'No. The Eucharist is a sacramental sign in which Jesus himself is truly present.'
+        question: "Who is present in the Holy Eucharist?",
+        answer: "Jesus Christ is truly present: Body, Blood, Soul and Divinity."
       },
-      {
-        id: 20,
-        lessonId: 4,
-        question: 'Why do we believe in the Real Presence?',
-        answer: 'We believe because Jesus has spoken and the Church faithfully teaches his words.'
-      }
     ],
-    prayer: 'Lord Jesus, I believe that you are truly present in the Blessed Sacrament. Strengthen my faith and teach me to adore you. Amen.',
-    thisWeek: 'When you pass before the tabernacle, make a careful genuflection if you are able and say quietly, "My Lord and my God."'
+    prayer: "Jesus, I believe that you are truly present in the Holy Eucharist. Help me to trust your words and love you more. Amen.",
+    thisWeek: "When the priest shows the Sacred Host at Mass, pray quietly: “Jesus, I believe in you.”"
   },
   {
     id: 5,
     number: 5,
-    title: 'Transubstantiation',
-    remember: 'At the consecration, the whole substance of bread and wine becomes the Body and Blood of Christ, while the appearances remain.',
+    title: "Transubstantiation",
+    remember: "What the bread and wine are changes; their appearances remain.",
     explanation: [
-      'Things have an underlying reality, what they are, and qualities our senses notice, such as colour, taste, weight and shape. The Church calls these outward qualities the appearances or species.',
-      'By the power of the Holy Spirit and the words of Christ spoken by the priest, the whole substance of bread is changed into Christ\'s Body and the whole substance of wine into his Blood. This change is called transubstantiation.',
-      'The appearances of bread and wine remain. Christ remains present as long as those appearances remain. He is whole and entire under either species and in every part after the host is broken.'
+      "At Mass, something wonderful happens which our eyes cannot see.",
+      "The bread becomes the Body of Christ.",
+      "The wine becomes the Blood of Christ.",
+      "They still look, taste and feel as they did before.",
+      "The Church has a special word for this change: Transubstantiation.",
+      "You can say it slowly: Tran-sub-stan-shee-ay-shun.",
+      "You do not have to say the long word perfectly to understand the important truth.",
+      "The Church calls what something really is its substance. At the consecration, by the power of the Holy Spirit and Jesus’ words spoken by the priest, the whole substance of bread and wine changes into Christ’s Body and Blood.",
+      "The appearances, also called species, remain.",
+      "Jesus is not hiding inside ordinary bread.",
+      "The bread itself has been changed.",
+      "Nor is it simply a case of us thinking about bread differently. Jesus truly acts.",
+      "After the consecration, we call the consecrated bread the Sacred Host. A host is the small piece of bread used at Mass; after consecration it is truly Christ’s Body.",
+      "We also call the Eucharist the Blessed Sacrament.",
+      "When the Sacred Host is broken, Jesus is not hurt or divided into pieces.",
+      "The whole Jesus is present under either appearance: what looks like bread or what looks like wine. He is also whole in every part of the Sacred Host.",
+      "Jesus remains present for as long as the appearances of bread or wine remain. That is why we treat the Blessed Sacrament with such care, both during Mass and afterwards.",
     ],
     talkAboutIt: {
-      question: 'What changes at the consecration, and what stays the same?',
-      guideNote: 'Let the children wrestle with this one. Draw out the distinction carefully: what the bread and wine are changes; what our senses perceive remains. That change of the whole substance is what the Church calls transubstantiation.'
+      question: "What can our senses tell us about food?",
+      guideNote: "we can notice its colour, shape, smell, taste and how it feels."
     },
     questions: [
       {
+        id: 20,
+        lessonId: 5,
+        question: "What changes at the consecration?",
+        answer: "What the bread and wine are. They become Christ’s Body and Blood."
+      },
+      {
         id: 21,
         lessonId: 5,
-        question: 'What is transubstantiation?',
-        answer: 'It is the change of the whole substance of bread and wine into the Body and Blood of Christ.'
+        question: "What remains the same?",
+        answer: "Their appearances: what our senses notice."
       },
       {
         id: 22,
         lessonId: 5,
-        question: 'What remains after the consecration?',
-        answer: 'The appearances of bread and wine remain.'
+        question: "Is Jesus simply hiding inside ordinary bread?",
+        answer: "No. The bread has truly become his Body."
       },
       {
         id: 23,
         lessonId: 5,
-        question: 'When does the change take place?',
-        answer: 'It takes place at the consecration by the power of the Holy Spirit and the words of Christ spoken by the priest.'
+        question: "Is Jesus hurt when the Sacred Host is broken?",
+        answer: "No. The whole living Jesus is present in each part."
       },
       {
         id: 24,
         lessonId: 5,
-        question: 'How long does Christ remain present?',
-        answer: 'Christ remains present as long as the Eucharistic appearances remain.'
+        question: "What is transubstantiation?",
+        answer: "It is the change of bread and wine into Christ’s Body and Blood, while their appearances remain."
       },
-      {
-        id: 25,
-        lessonId: 5,
-        question: 'Do we receive the whole Christ under the host alone?',
-        answer: 'Yes. Jesus is present whole and entire under either Eucharistic species.'
-      }
     ],
-    prayer: 'Jesus, eternal Truth, I believe what you have revealed. Help me to trust your word when my senses cannot see the mystery. Amen.',
-    thisWeek: 'Learn the word transubstantiation slowly: trans-sub-stan-ti-a-tion. Explain it in your own words.'
+    prayer: "Jesus, some things are too wonderful for my eyes to discover. Help me to believe what you teach and receive your gifts with love. Amen.",
+    thisWeek: "Tell someone at home: “At Mass, what the bread and wine are changes, although their appearances stay the same.” For the adult: Avoid demonstrations with hidden objects, disguises or food colouring. These suggest a different kind of change."
   },
   {
     id: 6,
     number: 6,
-    title: 'Adoring Jesus in the Blessed Sacrament',
-    remember: 'Because Jesus is truly present, we worship and adore the Blessed Sacrament during Mass and outside Mass.',
+    title: "Adoring Jesus in the Blessed Sacrament",
+    remember: "We adore the Blessed Sacrament because Jesus is truly present.",
     explanation: [
-      'Consecrated hosts are reserved in the tabernacle so that Holy Communion can be taken to the sick and so that the faithful may pray before the Lord. The sanctuary lamp indicates and honours his presence.',
-      'A genuflection is an act of adoration made by bending the right knee to the ground. Those who cannot genuflect may make another reverent gesture. Our silence, posture and attention should express faith.',
-      'We may visit Jesus in the tabernacle, adore him when the Blessed Sacrament is exposed, receive Benediction and join Eucharistic processions. Adoration always leads us back to the Sacrifice of the Mass and to loving service.'
+      "Because Jesus is God, we worship him.",
+      "One word for this worship is adoration.",
+      "Adoration means recognising God’s greatness and offering him our love and worship.",
+      "We adore Jesus in the Blessed Sacrament because he is truly present.",
+      "After Mass, Sacred Hosts are kept in a special place called the tabernacle.",
+      "They are kept so that Holy Communion can be taken to people who are sick and so that we can pray before Jesus in the Blessed Sacrament.",
+      "A special lamp burns near the tabernacle when the Blessed Sacrament is reserved there. It is called the sanctuary lamp.",
+      "When we come before Jesus in the tabernacle, we normally genuflect. This means briefly bending the right knee to the ground.",
+      "It is a way of saying with our bodies: “Jesus, you are my Lord. I adore you.”",
+      "If someone cannot kneel, they can show reverence in another suitable way. God knows their love.",
+      "Sometimes the Sacred Host is placed in a special holder called a monstrance, so that people can gather for adoration. At Benediction, a priest or deacon blesses the people with the Blessed Sacrament. Jesus may also be carried reverently in a Eucharistic procession. Adoration leads us back to Mass and to loving others.",
+      "You do not need many words when you pray before Jesus.",
+      "You can thank him, ask for help or simply remain quietly with him.",
+      "A short prayer said with love matters.",
     ],
     talkAboutIt: {
-      question: 'Why do we genuflect towards the tabernacle rather than towards an ordinary chair, statue or table in the church?',
-      guideNote: 'Our bodily action expresses what we believe. We adore Christ in the Blessed Sacrament because Jesus himself is truly present there.'
+      question: "How can our bodies show someone that we are listening or that we respect them?",
+      guideNote: ""
     },
     questions: [
       {
+        id: 25,
+        lessonId: 6,
+        question: "Where is the Blessed Sacrament kept after Mass?",
+        answer: "In the tabernacle."
+      },
+      {
         id: 26,
         lessonId: 6,
-        question: 'Where is the Blessed Sacrament reserved?',
-        answer: 'The Blessed Sacrament is reserved in the tabernacle.'
+        question: "Why do we genuflect before the Blessed Sacrament?",
+        answer: "To adore Jesus, who is truly present."
       },
       {
         id: 27,
         lessonId: 6,
-        question: 'What does the sanctuary lamp tell us?',
-        answer: 'It indicates and honours the presence of Christ in the tabernacle.'
+        question: "Are we worshipping the metal or wood of the tabernacle?",
+        answer: "No. We are worshipping Jesus."
       },
       {
         id: 28,
         lessonId: 6,
-        question: 'Why do Catholics genuflect before the Blessed Sacrament?',
-        answer: 'They genuflect to adore Jesus Christ, who is truly present.'
+        question: "What could you say to Jesus during a short visit?",
+        answer: "Accept a simple prayer of love, thanks, sorrow or asking for help."
       },
       {
         id: 29,
         lessonId: 6,
-        question: 'May we worship the Eucharist outside Mass?',
-        answer: 'Yes. The Church worships Christ in the Eucharist during Mass and outside Mass.'
+        question: "Why do we adore the Blessed Sacrament?",
+        answer: "Because Jesus Christ, our Lord and God, is truly present."
       },
-      {
-        id: 30,
-        lessonId: 6,
-        question: 'What is Benediction?',
-        answer: 'Benediction is a service of adoration in which a priest or deacon blesses the people with the Blessed Sacrament.'
-      }
     ],
-    prayer: 'O Sacrament most holy, O Sacrament divine, all praise and all thanksgiving be every moment thine. Amen.',
-    thisWeek: 'Make a short visit to the Blessed Sacrament with your family and spend one quiet minute with Jesus.'
+    prayer: "Jesus, my Lord and my God, I adore you. Thank you for welcoming me into your presence. Amen.",
+    thisWeek: "At church, ask an adult to show you the tabernacle and sanctuary lamp. Spend a quiet moment saying: “Jesus, I love you.”"
   },
   {
     id: 7,
     number: 7,
-    title: 'The Holy Sacrifice of the Mass',
-    remember: 'The Mass makes present sacramentally the one Sacrifice of Christ on the Cross; it is the same sacrifice offered in an unbloody manner.',
+    title: "The Holy Sacrifice of the Mass",
+    remember: "At Mass, Jesus makes present his one sacrifice on the Cross.",
     explanation: [
-      'On Calvary, Jesus offered himself once for all to the Father for our salvation. He rose from the dead and dies no more. His sacrifice is perfect and can never be repeated.',
-      'At Mass, the same Christ offers himself through the ministry of the priest. The Sacrifice of the Cross is made present sacramentally and its fruits are applied to the Church. Christ is not crucified again.',
-      'The Mass is offered to God alone for adoration and praise, thanksgiving, reparation for sin and petition for every need. The living and the faithful departed are remembered in Christ\'s one offering.'
+      "Jesus loves us completely.",
+      "On the Cross, he freely offered his life to the Father to save us from sin.",
+      "We call this his sacrifice.",
+      "A sacrifice is an offering made to God. Jesus offered himself in perfect love and obedience.",
+      "He died once.",
+      "Then he rose from the dead. He is alive for ever and will never die again.",
+      "At every Mass, his one sacrifice is made present in a wonderful sacramental way.",
+      "We are truly brought into the offering he made for us.",
+      "The Mass is therefore much more than a story about something long ago.",
+      "It is also much more than a meal we have invented.",
+      "Jesus acts. Through the priest, he offers the same sacrifice to the Father, without suffering or dying again. Jesus is both the priest who offers and the gift offered.",
+      "The Church joins in his offering. We adore the Father, thank him, ask him to heal the harm of sin and pray for the needs of the living and the dead. The Church calls these adoration, thanksgiving, reparation and petition.",
+      "Then Jesus gives himself to us in Holy Communion.",
+      "The Mass is both a holy sacrifice and a sacred meal.",
+      "The Jesus who gives himself for us also gives himself to us.",
     ],
     talkAboutIt: {
-      question: 'Jesus died on the Cross once. So when we say that the Mass is a sacrifice, does Jesus die again? What is happening instead?',
-      guideNote: 'Draw out the distinction especially carefully: Calvary is not repeated. Christ\'s one perfect sacrifice is made sacramentally present at Mass; the victim and principal priest are the same, although the manner of offering differs.'
+      question: "Can you think of something loving that costs us an effort?",
+      guideNote: ""
     },
     questions: [
       {
+        id: 30,
+        lessonId: 7,
+        question: "What did Jesus offer on the Cross?",
+        answer: "He offered himself."
+      },
+      {
         id: 31,
         lessonId: 7,
-        question: 'What is the Holy Sacrifice of the Mass?',
-        answer: 'The Mass is the sacrifice in which Christ makes present and offers sacramentally his one Sacrifice of the Cross.'
+        question: "Does Jesus die again at Mass?",
+        answer: "No. He died once and is alive for ever."
       },
       {
         id: 32,
         lessonId: 7,
-        question: 'Are the Mass and Calvary two different sacrifices?',
-        answer: 'No. They are one single sacrifice, differing in the manner of offering.'
+        question: "What happens to his one sacrifice at Mass?",
+        answer: "It is made present sacramentally, so that we can share in his offering."
       },
       {
         id: 33,
         lessonId: 7,
-        question: 'Does Jesus suffer and die again at Mass?',
-        answer: 'No. The risen Christ does not die again; his one sacrifice is made present in an unbloody manner.'
+        question: "What can we do during Mass?",
+        answer: "Worship, give thanks, ask forgiveness, pray and offer ourselves with Jesus."
       },
       {
         id: 34,
         lessonId: 7,
-        question: 'Who is the principal priest and victim of the Mass?',
-        answer: 'Jesus Christ is both the principal priest who offers and the victim who is offered.'
+        question: "What is the Mass?",
+        answer: "The Mass makes present Jesus’ one sacrifice on the Cross."
       },
-      {
-        id: 35,
-        lessonId: 7,
-        question: 'For what purposes is Mass offered?',
-        answer: 'Mass is offered for adoration, thanksgiving, reparation and petition.'
-      }
     ],
-    prayer: 'Eternal Father, I offer myself with Jesus in the Holy Sacrifice of the Mass. Receive my prayer, work, joys and sufferings through him. Amen.',
-    thisWeek: 'At the elevation, look towards the Sacred Host and the chalice and adore Jesus in silence.'
+    prayer: "Heavenly Father, thank you for the love of Jesus. Help me to join in his offering and give you my heart. Amen.",
+    thisWeek: "At the next Mass, quietly say: “Father, thank you for Jesus.” For the adult: The child does not need to explain how sacramental presence works. Look for understanding that Jesus died once, is alive, and truly makes his one sacrifice present at Mass."
   },
   {
     id: 8,
     number: 8,
-    title: 'The Parts of the Mass',
-    remember: 'The Liturgy of the Word and the Liturgy of the Eucharist form one act of worship, with rites that open and conclude the celebration.',
+    title: "The Parts of the Mass",
+    remember: "At Mass, we listen to God’s word and share in Christ’s offering.",
     explanation: [
-      'The Introductory Rites gather us and prepare us. We make the Sign of the Cross, acknowledge our sins, praise God and pray together.',
-      'In the Liturgy of the Word, God speaks through Sacred Scripture. We listen to the readings and homily, profess the Creed on Sundays and solemnities, and pray for the Church and the world.',
-      'In the Liturgy of the Eucharist, the gifts are prepared and the Eucharistic Prayer is offered. The Communion Rite prepares us to receive Christ. The Concluding Rites bless and send us to live the Gospel.'
+      "The Mass has two main parts: The Liturgy of the Word and the Liturgy of the Eucharist.",
+      "Liturgy means the Church’s public worship.",
+      "These two parts belong together as one celebration. There are also prayers and actions which begin and end the Mass.",
+      "We gather and prepare.",
+      "We make the Sign of the Cross.",
+      "We ask God for mercy.",
+      "We praise him and pray together.",
+      "We listen to God’s word.",
+      "We hear readings from the Bible.",
+      "The Bible is Sacred Scripture: writings inspired by God.",
+      "The Gospel tells us about Jesus’ life and teaching.",
+      "The priest or deacon explains the readings in the homily.",
+      "On Sundays, we normally profess our faith together in the Creed. We also pray for the Church and the world.",
+      "We join in the Eucharist.",
+      "Bread and wine are brought to the altar.",
+      "The altar is the holy table on which the sacrifice of the Mass is offered.",
+      "The priest leads the Eucharistic Prayer. We join in its thanksgiving and offering.",
+      "At the consecration, the bread and wine become Christ’s Body and Blood. This is the high point within the whole Eucharistic Prayer of thanksgiving and offering.",
+      "We pray the Our Father and prepare for Holy Communion. These prayers and actions form the Communion Rite.",
+      "Those who are prepared receive Jesus, and we give thanks.",
+      "We receive God’s blessing and are sent out.",
+      "We go to live what we have celebrated: loving God and serving others.",
+      "You take part by listening, praying, singing, answering and being quietly attentive.",
+      "If your mind wanders, gently turn your attention back to God.",
     ],
     talkAboutIt: {
-      question: 'Think about the Mass we have just celebrated. Can you remember one moment when God was speaking to us, and one moment when the Church was offering worship to God?',
-      guideNote: 'Scripture and the homily in the Liturgy of the Word, and the Church\'s thanksgiving and offering in the Liturgy of the Eucharist.'
+      question: "What is one thing you have noticed at Mass?",
+      guideNote: ""
     },
     questions: [
       {
+        id: 35,
+        lessonId: 8,
+        question: "What are the two main parts of Mass?",
+        answer: "The Liturgy of the Word and the Liturgy of the Eucharist."
+      },
+      {
         id: 36,
         lessonId: 8,
-        question: 'What are the two principal parts of the Mass?',
-        answer: 'They are the Liturgy of the Word and the Liturgy of the Eucharist.'
+        question: "What do we hear in the Liturgy of the Word?",
+        answer: "God’s word in the Bible."
       },
       {
         id: 37,
         lessonId: 8,
-        question: 'What happens in the Liturgy of the Word?',
-        answer: 'God speaks to us in Scripture, and the Church responds in faith and prayer.'
+        question: "What happens at the consecration?",
+        answer: "The bread and wine become Christ’s Body and Blood."
       },
       {
         id: 38,
         lessonId: 8,
-        question: 'What happens in the Liturgy of the Eucharist?',
-        answer: 'The gifts are prepared, the Eucharistic Prayer is offered and Christ becomes present in the consecrated species.'
+        question: "Can silence be a way of taking part?",
+        answer: "Yes. We can listen, adore and pray silently."
       },
       {
         id: 39,
         lessonId: 8,
-        question: 'What is the high point of the Eucharistic Prayer?',
-        answer: 'The consecration is the high point, within the whole prayer of thanksgiving and offering.'
+        question: "How do I take part in Mass?",
+        answer: "I listen, pray and join in the worship of the Church."
       },
-      {
-        id: 40,
-        lessonId: 8,
-        question: 'What do the Concluding Rites do?',
-        answer: 'They bless and send us to love God and serve our neighbour.'
-      }
     ],
-    prayer: 'Holy Spirit, help me to listen to God\'s word, unite myself to Christ\'s offering and take part in Mass with faith. Amen.',
-    thisWeek: 'Use Appendix A at Sunday Mass and mark each part as it happens.'
+    prayer: "Holy Spirit, help me to listen to God’s word, pray with the Church and take part in Mass with love. Amen.",
+    thisWeek: "At the next Mass, notice when the Gospel is read. Afterwards, tell an adult one thing you heard."
   },
   {
     id: 9,
     number: 9,
-    title: 'Offering Ourselves with Jesus',
-    remember: 'At Mass, the baptised unite their lives, prayers, work, joys and sufferings with the perfect offering of Christ.',
+    title: "Offering Ourselves with Jesus",
+    remember: "We can offer our lives to the Father with Jesus.",
     explanation: [
-      'The priest acts in the person of Christ the Head, but the whole Church participates in the Mass. Each person takes part according to his or her place and calling.',
-      'We participate inwardly by faith, attention, prayer and self-offering, and outwardly by listening, answering, singing, keeping silence and using the Church\'s gestures. Active participation begins in the heart.',
-      'At the preparation of the gifts, we may place our whole life spiritually on the altar. United with Jesus, even small duties, sacrifices and acts of love can be offered to the Father.'
+      "At Mass, bread and wine are placed on the altar. Jesus works through the priest in a special way, while the whole Church joins in the prayer.",
+      "We can also offer something which cannot be carried in a dish or a cup.",
+      "We can offer ourselves.",
+      "This means giving our lives to God with love.",
+      "We can offer him our work and play, our happiness and worries, our friendships and difficulties.",
+      "We join these things to Jesus’ perfect offering.",
+      "Perhaps you worked hard at something difficult.",
+      "Perhaps you were kind when you felt cross.",
+      "Perhaps someone you love is ill.",
+      "You can bring all these things to God in prayer.",
+      "You do not need to pretend that everything is easy.",
+      "You can say: “Father, this is hard. Please help me. I offer you my day with Jesus.”",
+      "Offering ourselves also means being willing to follow God.",
+      "If we ask God to help us love others, we should try to act lovingly.",
+      "If we have hurt someone, we should be willing to say sorry and put things right.",
+      "Our love at Mass should continue at home, at school and wherever we go.",
+      "God cares about the small choices of every day.",
     ],
     talkAboutIt: {
-      question: 'When the bread and wine are carried to the altar, what could you silently place there with them from your own life?',
-      guideNote: 'Children might suggest schoolwork, someone they love, something difficult, a worry, an act of kindness, their family, etc. Draw out that participation at Mass is interior as well as exterior: we unite our lives with Christ\'s perfect offering.'
+      question: "What is one good thing from today? Was anything difficult?",
+      guideNote: ""
     },
     questions: [
       {
+        id: 40,
+        lessonId: 9,
+        question: "What can we offer to God at Mass?",
+        answer: "Our whole lives: our work, joys, difficulties, prayers and acts of love."
+      },
+      {
         id: 41,
         lessonId: 9,
-        question: 'Who celebrates the Eucharistic liturgy?',
-        answer: 'Christ and his Church celebrate the Eucharistic liturgy.'
+        question: "Do we physically climb onto the altar?",
+        answer: "No. We offer ourselves in our hearts and prayers."
       },
       {
         id: 42,
         lessonId: 9,
-        question: 'How does the priest act at Mass?',
-        answer: 'The priest acts sacramentally in the person of Christ the Head.'
+        question: "With whom do we make our offering?",
+        answer: "With Jesus."
       },
       {
         id: 43,
         lessonId: 9,
-        question: 'How do the faithful participate inwardly?',
-        answer: 'They participate through faith, attention, prayer and self-offering.'
+        question: "If we offer God our day, how might we treat other people?",
+        answer: "With kindness, patience, honesty and a willingness to help."
       },
       {
         id: 44,
         lessonId: 9,
-        question: 'How do the faithful participate outwardly?',
-        answer: 'They listen, answer, sing, keep silence and use the Church\'s gestures reverently.'
+        question: "What can I offer with Jesus at Mass?",
+        answer: "I can offer my whole life to the Father."
       },
-      {
-        id: 45,
-        lessonId: 9,
-        question: 'What may we offer with Jesus?',
-        answer: 'We may offer our prayers, work, joys, sufferings and our whole lives.'
-      }
     ],
-    prayer: 'Father, through Jesus your Son, receive all that I am and all that I do. May my life become an offering of love. Amen.',
-    thisWeek: 'Before Mass, choose one joy, difficulty or person to place spiritually on the altar with the gifts.'
+    prayer: "Heavenly Father, I offer you this day with Jesus. Receive my work and play, my joys and difficulties. Help me to love you in everything I do. Amen.",
+    thisWeek: "Choose one person to pray for at the next Mass. You do not have to tell anyone who it is."
   },
   {
     id: 10,
     number: 10,
-    title: 'Preparing to Receive Worthily',
-    remember: 'We prepare for Holy Communion with Catholic faith, a soul in the state of grace, the Eucharistic fast and reverent attention.',
+    title: "Preparing to Receive Worthily",
+    remember: "We prepare our hearts and bodies to receive Jesus.",
     explanation: [
-      'A child preparing for First Holy Communion must have sufficient knowledge, understand the mystery of Christ according to his or her capacity and be able to receive the Body of Christ with faith and devotion.',
-      'Anyone conscious of mortal sin must receive sacramental absolution before Holy Communion. First sacramental Confession must precede First Holy Communion. If a child is unsure, the child may ask a parent, catechist or priest without fear.',
-      'The Eucharistic fast means taking no food or drink for at least one hour before receiving Holy Communion; water and medicine do not break the fast. We also prepare by prayer, suitable dress, forgiveness and arriving in good time.'
+      "Jesus welcomes us with love.",
+      "We prepare for Holy Communion because we believe that we are receiving him.",
+      "We want to come with faith, sorrow for our sins and a sincere desire to love him.",
+      "We should receive Holy Communion in a state of grace.",
+      "This means having God’s life of sanctifying grace in us.",
+      "Sin is a choice against God’s love and commandments.",
+      "Some sins are venial. They hurt our friendship with God.",
+      "A mortal sin is a gravely wrong choice made with full knowledge and deliberate consent. It destroys the life of sanctifying grace in the soul.",
+      "An accident, an unwanted thought or a feeling which comes without our choosing is not the same as deliberately choosing sin.",
+      "Jesus gives us the sacrament of Confession so that we can receive forgiveness and begin again.",
+      "Before First Holy Communion, you make your First Confession.",
+      "If someone knows that they have committed a mortal sin, they must receive forgiveness in Confession before receiving Holy Communion. Holy Communion strengthens a person already in the state of grace; it is not how mortal sin is forgiven.",
+      "If you are unsure or worried, speak privately to the priest. He is there to help.",
+      "We also prepare through the Eucharistic fast.",
+      "Normally, we have no food or drink for at least one hour before receiving Holy Communion. Water and medicine are allowed.",
+      "An adult will help you with the time.",
+      "Before Mass, we can pray, prepare calmly and arrive in good time.",
+      "Our clothes should be suitable and respectful. They do not need to be expensive.",
+      "The greatest treasure on your First Holy Communion day is Jesus.",
     ],
     talkAboutIt: {
-      question: 'If Holy Communion really is Jesus, what are some ways our preparation should show that we know whom we are going to receive?',
-      guideNote: 'State of grace, Confession when necessary, the Eucharistic fast, prayer, forgiveness, arriving in good time and attentive participation. These aren\'t arbitrary rules; they express faith in the holiness of the One we receive.'
+      question: "How might we prepare to welcome someone important into our home?",
+      guideNote: ""
     },
     questions: [
       {
+        id: 45,
+        lessonId: 10,
+        question: "Use these invented examples. Do not ask the child to reveal personal sins.",
+        answer: "Sam accidentally spills a drink. Is an accident automatically a sin?"
+      },
+      {
         id: 46,
         lessonId: 10,
-        question: 'What must a child understand before First Holy Communion?',
-        answer: 'The child must distinguish the Body of Christ from ordinary food and receive with faith and devotion.'
+        question: "No. Sin involves a wrong choice.",
+        answer: "Anna is worried about whether she should receive Communion. Who can help her?"
       },
       {
         id: 47,
         lessonId: 10,
-        question: 'What is the state of grace?',
-        answer: 'It is friendship with God and the possession of sanctifying grace.'
+        question: "The priest.",
+        answer: "What sacrament do we receive before First Holy Communion?"
       },
       {
         id: 48,
         lessonId: 10,
-        question: 'What must someone conscious of mortal sin do before Communion?',
-        answer: 'The person must receive sacramental absolution before receiving Holy Communion.'
+        question: "First Confession.",
+        answer: "What are we allowed during the Eucharistic fast?"
       },
       {
         id: 49,
         lessonId: 10,
-        question: 'What is the Eucharistic fast?',
-        answer: 'It is abstaining from food and drink for at least one hour before Communion, except for water and medicine.'
+        question: "Water and medicine.",
+        answer: ""
       },
       {
         id: 50,
         lessonId: 10,
-        question: 'How else should we prepare?',
-        answer: 'We should pray, forgive others, dress suitably, arrive in good time and take part attentively in Mass.'
-      }
+        question: "How should I prepare for Holy Communion?",
+        answer: "With faith, a heart in God’s grace, prayer and the Eucharistic fast."
+      },
     ],
-    prayer: 'Come, Holy Spirit. Give me faith, a clean heart, loving desire and reverence as I prepare to receive Jesus. Amen.',
-    thisWeek: 'With an adult, work out when the one-hour fast begins for the usual time of Communion in your parish.'
+    prayer: "Merciful Jesus, thank you for forgiving sins. Help me to turn away from wrong, welcome your grace and prepare to receive you. Amen.",
+    thisWeek: "Ask the adult caring for you to help you understand the one-hour fast. For the adult: The hour is counted before receiving Communion, not before Mass begins. Explain any health or feeding needs to the priest so suitable arrangements can be made. Never ask the child what they have confessed."
   },
   {
     id: 11,
     number: 11,
-    title: 'Receiving Holy Communion Reverently',
-    remember: 'We approach in faith, receive according to the Church\'s approved practice, answer "Amen" and consume the Sacred Host immediately.',
+    title: "Receiving Holy Communion Reverently",
+    remember: "We receive the Sacred Host carefully because it is Jesus.",
     explanation: [
-      'Follow the Communion procession calmly and prayerfully. In England and Wales, Holy Communion is normally received standing, though an individual may kneel. When receiving standing, make a reverent bow before the Sacrament. The minister shows the host and says, "The Body of Christ." Look towards the Sacred Host and answer clearly, "Amen," expressing your faith. Receive either on the tongue or, where permitted, in the hand, according to your choice and the approved practice.',
-      'Consume the whole Sacred Host immediately and reverently. Never carry it away or pass it to another person. If there is any difficulty, remain calm and follow the minister\'s help. Return to your place and pray in thanksgiving.'
+      "When the time comes for Holy Communion, you join the procession calmly.",
+      "You are going to receive Jesus.",
+      "The minister holds up the Sacred Host and says: “The Body of Christ.”",
+      "You answer: “Amen.”",
+      "Here, your Amen expresses your faith. You are saying that you believe the One you receive is truly Jesus.",
+      "In England and Wales, Holy Communion is normally received standing, although you may receive kneeling.",
+      "If receiving standing, make a reverent bow before you receive.",
+      "You may receive on the tongue or in the hand.",
+      "If you receive on the tongue: Say “Amen,” then open your mouth and gently extend your tongue. Remain still while the minister places the Sacred Host on it.",
+      "If you receive in the hand: Place one open hand on top of the other to make a steady place for the Sacred Host.",
+      "Allow the minister to place it in your hand.",
+      "Then take it with your other hand and place it in your mouth immediately, before walking away.",
+      "You must consume the Sacred Host. Never put it in a pocket, take it back to your seat uneaten or give it to someone else.",
+      "You receive the whole Jesus in the Sacred Host. You do not need to receive from the chalice to receive the whole Christ.",
+      "If anything goes wrong, stay calm and tell the minister. You will be helped.",
+      "Return quietly to your place and pray.",
+      "Jesus has given himself to you.",
     ],
     talkAboutIt: {
-      question: 'When the minister says "The Body of Christ" and you answer "Amen", what are you actually saying yes to?',
-      guideNote: '"I believe." The child\'s Amen is a profession of faith that the One being received is truly Christ. Then connect that belief with reverent approach, reception, immediate consumption of the Host and thanksgiving.'
+      question: "How do we handle something precious?",
+      guideNote: "carefully, attentively and without rushing."
     },
     questions: [
       {
         id: 51,
         lessonId: 11,
-        question: 'How should we approach Holy Communion?',
-        answer: 'We should approach calmly, prayerfully and reverently.'
+        question: "What does the minister say?",
+        answer: "“The Body of Christ.”"
       },
       {
         id: 52,
         lessonId: 11,
-        question: 'What does the minister say?',
-        answer: 'The minister says, "The Body of Christ."'
+        question: "What do you answer?",
+        answer: "“Amen.”"
       },
       {
         id: 53,
         lessonId: 11,
-        question: 'What do we answer?',
-        answer: 'We answer, "Amen," expressing our faith in Christ\'s Real Presence.'
+        question: "What must you do with the Sacred Host?",
+        answer: "Consume it immediately and reverently."
       },
       {
         id: 54,
         lessonId: 11,
-        question: 'How may the Sacred Host be received?',
-        answer: 'It may be received on the tongue or, where permitted, in the hand.'
+        question: "What should you do if you are confused or something goes wrong?",
+        answer: "Stay calm and ask the minister for help."
       },
-      {
-        id: 55,
-        lessonId: 11,
-        question: 'What must we do after receiving the Sacred Host?',
-        answer: 'We must consume it immediately and return to our place for thanksgiving.'
-      }
     ],
-    prayer: 'Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed.',
-    thisWeek: 'Practise the Communion procession and the approved manner of reception with your catechist or parent, using an unconsecrated practice host.'
+    prayer: "Jesus, help me to receive you with faith, love and care. When I feel nervous, help me remember that you love me. Amen.",
+    thisWeek: "Decide with the adult caring for you which manner of receiving you will practise with the parish. For the adult: Tell the priest beforehand about coeliac disease, swallowing difficulties, sensory needs or other concerns affecting reception."
   },
   {
     id: 12,
     number: 12,
-    title: 'Thanksgiving and a Eucharistic Life',
-    remember: 'Holy Communion unites us more closely to Christ, strengthens charity, cleanses venial sins and gives a pledge of heaven.',
+    title: "Thanksgiving and a Eucharistic Life",
+    remember: "Holy Communion helps us live more closely united to Jesus.",
     explanation: [
-      'After receiving Holy Communion, Jesus is sacramentally present within us while the Eucharistic species remain. This is a precious time for silent adoration, thanksgiving, self-offering and petition.',
-      'Holy Communion increases our union with Christ, strengthens sanctifying grace and charity, forgives venial sins, helps preserve us from grave sin and deepens the unity of the Church. It is food for our journey and a pledge of eternal life.',
-      'A Eucharistic life continues after Mass. We keep Sunday holy, receive Communion frequently when properly disposed, return regularly to Confession, adore Jesus in the Blessed Sacrament and recognise him in people who need our love.'
+      "After receiving Holy Communion, return quietly to your place.",
+      "This is a precious time to pray.",
+      "Jesus has given himself to you.",
+      "You can adore him, thank him, offer yourself to him and ask for his help.",
+      "You do not need a long speech.",
+      "You might say: “Jesus, I love you. Thank you for coming to me. Help me to follow you.”",
+      "You may also be quietly attentive without saying many words.",
+      "Holy Communion brings us closer to Jesus and strengthens our love.",
+      "When we receive him with the right disposition, he strengthens the life of grace in us, forgives venial sins and helps protect us from serious sin.",
+      "He also brings us closer together as members of his Church.",
+      "After the appearances of the Sacred Host no longer remain, Jesus’ sacramental presence in that form ends. But the grace and friendship he gives are meant to continue.",
+      "Holy Communion should make a difference to how we live.",
+      "Jesus helps us to pray, forgive, tell the truth, share and care for people who need us.",
+      "We still have choices to make. We can ask for his help whenever doing good is difficult.",
+      "Your First Holy Communion is the beginning of a continuing Eucharistic life.",
+      "We return to Sunday Mass.",
+      "We receive Holy Communion when properly prepared.",
+      "We go to Confession regularly.",
+      "We pray at home and learn to love our neighbours.",
+      "Jesus accompanies us throughout our lives. Holy Communion is a pledge, or promise, of eternal life: he leads us towards the happiness of heaven.",
     ],
     talkAboutIt: {
-      question: 'If receiving Jesus in Holy Communion brings us closer to him, what difference should that make to the way we treat people after we leave church?',
-      guideNote: 'Communion isn\'t finished when Mass ends. Union with Christ should bear fruit in worship, charity, forgiveness, service and love of neighbour.'
+      question: "When someone gives us a wonderful gift, what do we want to say?",
+      guideNote: "“Thank you.”"
     },
     questions: [
       {
+        id: 55,
+        lessonId: 12,
+        question: "What should we do after receiving Holy Communion?",
+        answer: "Pray and thank Jesus."
+      },
+      {
         id: 56,
         lessonId: 12,
-        question: 'What should we do after receiving Holy Communion?',
-        answer: 'We should adore Jesus, thank him, offer ourselves and ask for the graces we need.'
+        question: "What does Holy Communion help to grow in us?",
+        answer: "Our union with Jesus, the life of grace and love."
       },
       {
         id: 57,
         lessonId: 12,
-        question: 'What is the chief fruit of Holy Communion?',
-        answer: 'The chief fruit is a closer union with Jesus Christ.'
+        question: "Does First Holy Communion mean we have finished learning and coming to Mass?",
+        answer: "No. It begins a continuing Eucharistic life."
       },
       {
         id: 58,
         lessonId: 12,
-        question: 'Does Holy Communion forgive mortal sin?',
-        answer: 'No. Holy Communion presupposes the state of grace; mortal sin is forgiven through sacramental Confession.'
+        question: "What is one way we could live close to Jesus this week?",
+        answer: "Accept a realistic example of prayer, worship, forgiveness, honesty, kindness or service."
       },
       {
         id: 59,
         lessonId: 12,
-        question: 'What sins does Holy Communion cleanse?',
-        answer: 'Holy Communion cleanses venial sins and helps preserve us from grave sin.'
+        question: "How should I live after Holy Communion?",
+        answer: "I should remain close to Jesus through prayer, the sacraments and love of others."
       },
-      {
-        id: 60,
-        lessonId: 12,
-        question: 'How do we live a Eucharistic life?',
-        answer: 'We worship faithfully, remain close to the sacraments and give ourselves in love to God and neighbour.'
-      }
     ],
-    prayer: 'Lord Jesus, remain with me by your grace. Make my heart like yours and teach me to become a gift of love for others. Amen.',
-    thisWeek: 'Choose one regular practice: thanksgiving after Communion, a weekly visit to the tabernacle or a monthly Confession.'
-  }
+    prayer: "Jesus, thank you for giving yourself to me. Stay close to me by your grace. Help me to pray faithfully, forgive generously and love the people around me. Lead me towards heaven. Amen.",
+    thisWeek: "Choose one simple habit to continue: a bedtime prayer, thanksgiving after Communion or a daily act of kindness."
+  },
 ];
